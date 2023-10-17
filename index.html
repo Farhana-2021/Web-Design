@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <link rel="stylesheet" href="kiosk.css">
+    <script src="kiosk.js"></script>
+</head>
+
+<body>
+    <div id="box1"> 
+    <h1>HELLO!</h1>
+    <h2>Welcome to <b>ICE CREAM WORLD!!<b></h2>
+    <p>
+        <img src="cone.jpg" alt="Icre-cream Cone">
+    </p>
+    <h3>Choose your flavored <b>CONES<b> and ENJOY!!!</h3>
+    <p>
+        <table class="centre">
+            <tr><th>Flavored Cone</th><th>Price</th></tr>
+            <tr><td>Vanilla</td><td>$1.25</td></tr>
+            <tr><td>Chocolate</td><td>$1.50</td></tr>
+            <tr><td>Coconut</td><td>$1.95</td></tr>
+            <tr><td>Strawberry</td><td>$1.75</td></tr>
+            <tr><td>Banana</td><td>$1.75</td></tr>
+            <tr><td>Mango</td><td>$2.25</td></tr>
+        </table>
+    </p>   
+    <p>
+    <input type="button" id=btn_vanilla value="Vanilla" onclick="vanilla_calc()">
+    <input type="button" id="btn_choco" value="Chocolate" onclick="choco_calc()">
+    <input type="button" id="btn_coconut" value="Coconut" onclick="coconut_calc()">
+    <input type="button" id="btn_strawberry" value="Strawberry" onclick="strawberry_calc()">
+    <input type="button" id="btn_banana" value="Banana" onclick="banana_calc()">
+    <input type="button" id="btn_mango" value="Mango" onclick="mango_calc()">
+    </p> 
+    <p><input type="button" id=btn_checkout value="CHECKOUT" onclick="checkout()"></p>
+</div>
+</body>
+</html>
